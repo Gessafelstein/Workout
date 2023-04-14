@@ -1,0 +1,115 @@
+body{
+    background-color: #ffffff;
+}
+
+
+.heading {
+    width: 1280px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+
+    h3 {
+        font-family: 'Inter', sans-serif;
+        font-size: 28px;
+        font-weight: 700;
+        color: #89C5CC;
+        cursor: pointer;
+    }
+
+    ul {
+        display: flex;
+        justify-content: space-between;
+
+        li {
+            padding: 48px;
+        }
+
+        .link {
+            text-decoration: none;
+            font-family: 'Mulish';
+            font-size: 20px;
+            font-weight: 400;
+            color: #1F1534;
+            opacity: 0.5;
+            cursor: pointer;
+            transition: 0.5s;
+            &:hover {
+              opacity: 1;
+
+            }
+        }
+
+    }
+}
+
+.hero {
+    display: flex;
+    justify-content: center;
+   
+
+        .header-text {
+            text-transform: uppercase;
+            font-size: 48px;
+            font-weight: 400;
+            font-family: 'Mulish';
+            color: #000000;
+            line-height: 150%;
+
+            .exclusive {
+                font-weight: 700;
+                color: #89C5CC;
+            }
+
+        }
+
+        p {
+            margin-top: 16px;
+            font-size: 16px;
+            color: #7D7987;
+            line-height: 25px;
+            font-weight: 400;
+
+            .exclusive1 {
+                font-weight: 700;
+            }
+        }
+
+        .start {
+            margin-top: 48px;
+            display: flex;
+            background-color: #69B99D;
+            border: none;
+            padding: 12px 32px;
+            border-radius: 4px;
+            cursor: pointer;
+
+            .now {
+                color: #F9F9F9;
+                font-size: 16px;
+                font-weight: 500;
+                margin-top: 5px;
+                margin-left: 5px;
+            }
+        }
+
+        footer {
+
+            display: flex;
+            align-items: center;
+            .footer_p {
+                margin: auto;
+                font-size: 14px;
+                font-weight: 400;
+                font-family: sans-serif;
+
+
+                .maili {
+                    font-weight: 700;
+                }
+            }
+        }
+       
+}

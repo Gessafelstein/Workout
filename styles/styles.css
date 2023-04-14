@@ -1,0 +1,94 @@
+body {
+  background-color: #ffffff;
+}
+
+.heading {
+  width: 1280px;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.heading h3 {
+  font-family: "Inter", sans-serif;
+  font-size: 28px;
+  font-weight: 700;
+  color: #89C5CC;
+  cursor: pointer;
+}
+.heading ul {
+  display: flex;
+  justify-content: space-between;
+}
+.heading ul li {
+  padding: 48px;
+}
+.heading ul .link {
+  text-decoration: none;
+  font-family: "Mulish";
+  font-size: 20px;
+  font-weight: 400;
+  color: #1F1534;
+  opacity: 0.5;
+  cursor: pointer;
+  transition: 0.5s;
+}
+.heading ul .link:hover {
+  opacity: 1;
+}
+
+.hero {
+  display: flex;
+  justify-content: center;
+}
+.hero .header-text {
+  text-transform: uppercase;
+  font-size: 48px;
+  font-weight: 400;
+  font-family: "Mulish";
+  color: #000000;
+  line-height: 150%;
+}
+.hero .header-text .exclusive {
+  font-weight: 700;
+  color: #89C5CC;
+}
+.hero p {
+  margin-top: 16px;
+  font-size: 16px;
+  color: #7D7987;
+  line-height: 25px;
+  font-weight: 400;
+}
+.hero p .exclusive1 {
+  font-weight: 700;
+}
+.hero .start {
+  margin-top: 48px;
+  display: flex;
+  background-color: #69B99D;
+  border: none;
+  padding: 12px 32px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+.hero .start .now {
+  color: #F9F9F9;
+  font-size: 16px;
+  font-weight: 500;
+  margin-top: 5px;
+  margin-left: 5px;
+}
+.hero footer {
+  display: flex;
+  align-items: center;
+}
+.hero footer .footer_p {
+  margin: auto;
+  font-size: 14px;
+  font-weight: 400;
+  font-family: sans-serif;
+}
+.hero footer .footer_p .maili {
+  font-weight: 700;
+}/*# sourceMappingURL=styles.css.map */
